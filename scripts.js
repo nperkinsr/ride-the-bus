@@ -239,7 +239,6 @@ function showSuccessModal() {
   document.querySelector(".modal-four").classList.add("hidden");
   document.querySelector(".success-modal").classList.remove("hidden");
   document.querySelector(".modal-backdrop").classList.remove("hidden");
-  playSuccessSound();
 }
 
 /////// Show Game Over Modal with Sound ///////
