@@ -247,7 +247,6 @@ function showGameOverModal(currentModal) {
   document.querySelector(currentModal).classList.add("hidden");
   document.querySelector(".game-over-modal").classList.remove("hidden");
   document.querySelector(".modal-backdrop").classList.remove("hidden");
-  playGameOverSound();
 }
 
 /////////////////////////////
